@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive; 
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: rgb(255, 203, 203);
+    font-family: var(--fonte1);
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 2em;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+.nome{
+    padding-inline: 0px;
+}
+
+section.img01{
+    background-image: url('../imagens/bg-novo.webp');
+    font-size: 2.5em;
+    font-display: inherit;
+    text-align: center;
+    padding-top: 200px;
+    background-color: rgb(29, 29, 29);
+    background-position: right bottom;
+    color: rgb(255, 255, 255);
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+
+section.img01 > p{
+    background-color: rgba(0, 0, 0, 0.014);
+    display: inline-block;
+    margin: auto;
+    
+}
+
+img{
+    border-radius: 300px;
+    border: 50px 50px 50px rgb(0, 0, 0);
+    border-style: outset black;
+    padding: 20px;
+    height: 270px;
+    width: 280px;
+}
+
+section.img02{
+    background-color: white;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 2em;
+    
+    
+
+}
+
+section.img02 > h1{
+    font-size: 0.9em;
+    font-style: var(--fonte2);
+    font-weight: bolder;
+    line-height: 2em;
+    
+}
+
+section.img02 > p{
+    font-size: 0.5em;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+section.img03{
+    background-image: url('../imagens/mansao.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section.img03 > header{
+    text-align: center;
+}
+
+section.img03 > h2{
+    color: white;
+    text-align: center;
+    font-size: 2.7em;
+}
+
+section.img03 > h3{
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+section.img03 > h4{
+    color: white;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+section.img03 > h5{
+    color: white;
+    text-align: center;
+    font-size: 0.3em;
+}
+
+img.mae{
+    height: 250px;
+    width: 250px;
+    border-radius: 60%;
+    text-align: center;
+    font-display: inherit;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+
+section.img04{
+    background-color: rgb(0, 178, 223);
+
+}
+
+section.img04 > h1{
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    margin-top: -60px;
+}
+
+section.img04 > p{
+    color: white;
+    margin-top: 50px;
+
+}
+
+section.img04 > ul> a{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: white;
+    display: list-item;
+    list-style: none;
+    font-size: 1.5em;
+    width: max-content;
+    padding-left: 10px;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.281);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.808);
+}
+a{
+    color: rgb(0, 204, 255);
+    text-decoration: none;
+    padding-inline: 50px;
+    
+    
+}
+
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+
+.profile-card__social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  @media screen and (max-width: 768px) {
+    .profile-card a {
+      width: 250px;
+      height: 250px;
+      margin: 20px;
+    }
+  }
+  @media screen {
+    .profile-card a:hover {
+      transform: scale(1.2) translateY(-5px);
+    }
+    .profile-card a.telefone {
+      background: linear-gradient(to right, #17853f, #107e39);
+    }
+    .profile-card a.email {
+      background: linear-gradient(#1293d2, #0e76a8);
+    }
+    .profile-card a.instagram {
+      background: linear-gradient(rgb(250, 67, 67), rgb(253, 68, 68));
+    }
+    .profile-card a.whatsapp {
+      background: linear-gradient(to right, #25d366, #1bb453);
+    }
+  }
+  .section > profile-card__actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28rem;
+  }
+  .section > profile-card__actions > a > button {
+    font-weight: bold;
+    font-size: 47px;
+    padding: 21px 0px;
+    min-width: 450px;
+    border-radius: 60px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  @media screen and (max-width: 768px) {
+    .profile-card__actions > a > button {
+      min-width: 200px;
+    }
+  }
+  @media screen and (min-width: 576px) {
+    .profile-card__actions > a > button:hover {
+      transform: translateY(-5px);
+    }
+  }
+  .profile-card__actions > a > button.green {
+    background: linear-gradient(45deg, #0d7541, #077729);
+  }
+  
