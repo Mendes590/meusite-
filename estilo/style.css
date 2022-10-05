@@ -97,11 +97,13 @@ section.img03{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    height: 100vh;
 }
 
 section.img03 > header{
     text-align: center;
 }
+
 
 section.img03 > h2{
     color: white;
@@ -135,6 +137,7 @@ section.imgmae{
     font-display: inherit;
     padding-left: 40%;
     padding-right: 40%;
+    
 }
 
 section.img04{
@@ -146,7 +149,7 @@ section.img04 > h1{
     text-align: center;
     color: white;
     font-size: 2.5em;
-    margin-top: -60px;
+    margin-top: -90px;
 }
 
 section.img04 > p{
