@@ -49,7 +49,7 @@ section.img01{
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
-    margin: auto;
+    padding-top: 8em;
 }
 
 section.img01 > p{
