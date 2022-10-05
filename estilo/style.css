@@ -50,6 +50,7 @@ section.img01{
     background-attachment: fixed;
     height: 100vh;
     padding-top: 8em;
+    width: 100%;
 }
 
 section.img01 > p{
