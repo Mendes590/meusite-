@@ -38,7 +38,7 @@ section > p{
 
 section.img01{
     background-color: rgb(1, 82, 102);
-    font-size: 3em;
+    font-size: 3.5em;
     font-display: inherit;
     text-align: center;
     padding-top: 200px;
@@ -79,7 +79,7 @@ section.img02{
 }
 
 section.img02 > h1{
-    font-size: 0.9em;
+    font-size: 1.1em;
     font-style: var(--fonte2);
     font-weight: bolder;
     line-height: 2em;
@@ -87,7 +87,7 @@ section.img02 > h1{
 }
 
 section.img02 > p{
-    font-size: 0.5em;
+    font-size: 0.7em;
     padding-left: 20%;
     padding-right: 20%;
 }
@@ -228,6 +228,7 @@ section.precos > h1{
 section.precos > ul{
   font-size: 50px;
   margin-top: 60px;
+  list-style: disc;
 }
 
 
