@@ -65,8 +65,8 @@ img{
     border: 50px 50px 50px rgb(0, 0, 0);
     border-style: outset black;
     padding: 20px;
-    height: 270px;
-    width: 280px;
+    height: 380px;
+    width: 400px;
 }
 
 section.img02{
@@ -110,37 +110,37 @@ section.img03 > header{
 section.img03 > h2{
     color: white;
     text-align: center;
-    font-size: 3em;
+    font-size: 4.5em;
 }
 
 section.img03 > h3{
     color: white;
     text-align: center;
-    font-size: 0.95em;
+    font-size: 1.8em;
 }
 
 section.img03 > h4{
     color: white;
     text-align: center;
-    font-size: 0.85em;
+    font-size: 1.3em;
 }
 
 section.img03 > h5{
     color: white;
     text-align: center;
-    font-size: 0.45em;
+    font-size: 0.75em;
 }
 
-section.imgmae{
-    height: 400px;
-    width: 400px;
+/* section.img03.mae{
+    height: 800px;
+    width: 800px;
     border-radius: 60%;
     text-align: center;
     font-display: inherit;
     padding-left: 40%;
-    padding-right: 40%;
+    padding-right: 40%; */
     
-}
+/* } */
 
 section.img04{
     background-color: rgb(1, 142, 177);
@@ -171,40 +171,7 @@ section.img04 > ul> a{
     width: max-content;
     padding-left: 10px;
 }
-/*  */
-.profile-card__actions {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 38rem;
-}
-.profile-card__actions > a > button {
-  font-weight: bold;
-  font-size: 47px;
-  padding: 21px 0px;
-  min-width: 450px;
-  border-radius: 60px;
-  text-align: center;
-  color: white;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-@media screen and (max-width: 768px) {
-  .profile-card__actions > a > button {
-    min-width: 200px;
-  }
-}
-@media screen and (min-width: 576px) {
-  .profile-card__actions > a > button:hover {
-    transform: translateY(-5px);
-  }
-}
-.profile-card__actions > a > button.green {
-  background: linear-gradient(45deg, #0d7541, #077729);
-}
-.profile-card__actions > a > button.texto {
-  text-align: center;}
-/*  */
+
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.281);
     display: inline-block;
@@ -214,8 +181,8 @@ section.imagem > p{
 a{
     color: rgb(0, 204, 255);
     text-decoration: none;
-    padding-inline: 50px;
-    
+    padding-inline: 4.5em;
+    height: 10em;
     
 }
 
@@ -247,60 +214,10 @@ section.abotao{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    height: 20em;
+    
+  
   }
 
-  @media screen and (max-width: 768px) {
-    .profile-card a {
-      width: 450px;
-      height: 450px;
-      margin: 35px;
-    }
-  }
-  @media screen {
-    .profile-card a:hover {
-      transform: scale(1.2) translateY(-5px);
-    }
-    .profile-card a.telefone {
-      background: linear-gradient(to right, #17853f, #107e39);
-    }
-    .profile-card a.email {
-      background: linear-gradient(#1293d2, #0e76a8);
-    }
-    .profile-card a.instagram {
-      background: linear-gradient(rgb(250, 67, 67), rgb(253, 68, 68));
-    }
-    .profile-card a.whatsapp {
-      background: linear-gradient(to right, #25d366, #1bb453);
-    }
-  }
-  .section > profile-card__actions {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 28rem;
-  }
-  .section > profile-card__actions > a > button {
-    font-weight: bold;
-    font-size: 47px;
-    padding: 21px 0px;
-    min-width: 450px;
-    border-radius: 60px;
-    text-align: center;
-    color: white;
-    cursor: pointer;
-    transition: all 0.2s;
-  }
-  @media screen and (max-width: 768px) {
-    .profile-card__actions > a > button {
-      min-width: 200px;
-    }
-  }
-  @media screen and (min-width: 576px) {
-    .profile-card__actions > a > button:hover {
-      transform: translateY(-5px);
-    }
-  }
-  .profile-card__actions > a > button.green {
-    background: linear-gradient(45deg, #0d7541, #077729);
-  }
+
   
