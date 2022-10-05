@@ -37,7 +37,7 @@ section > p{
 }
 
 section.img01{
-    background-color: rgb(0, 53, 66);
+    background-color: rgb(1, 82, 102);
     font-size: 3em;
     font-display: inherit;
     text-align: center;
@@ -141,7 +141,7 @@ section.imgmae{
 }
 
 section.img04{
-    background-color: rgb(0, 125, 156);
+    background-color: rgb(1, 142, 177);
 
 }
 
@@ -168,7 +168,40 @@ section.img04 > ul> a{
     width: max-content;
     padding-left: 10px;
 }
-
+/*  */
+.profile-card__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28rem;
+}
+.profile-card__actions > a > button {
+  font-weight: bold;
+  font-size: 47px;
+  padding: 21px 0px;
+  min-width: 450px;
+  border-radius: 60px;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+@media screen and (max-width: 768px) {
+  .profile-card__actions > a > button {
+    min-width: 200px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .profile-card__actions > a > button:hover {
+    transform: translateY(-5px);
+  }
+}
+.profile-card__actions > a > button.green {
+  background: linear-gradient(45deg, #0d7541, #077729);
+}
+.profile-card__actions > a > button.texto {
+  text-align: center;}
+/*  */
 section.imagem > p{
     background-color: rgba(0, 0, 0, 0.281);
     display: inline-block;
@@ -193,12 +226,14 @@ section.precos > h1{
 }
 
 section.precos > ul{
-  font-size: 30px;
+  font-size: 50px;
   margin-top: 60px;
 }
 
 
-
+section.abotao{
+  text-align: center;
+}
 
 
 .profile-card__social {
