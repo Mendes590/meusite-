@@ -48,7 +48,8 @@ section.img01{
     box-shadow: inset 6px 6px 13px 0px black;
     background-size: cover;
     background-attachment: fixed;
-    height: 70vh;
+    height: 100vh;
+    margin: auto;
 }
 
 section.img01 > p{
